@@ -3,7 +3,7 @@
 namespace backend.Controllers
 {
     [ApiController]
-    public class PingController : Controller
+    public class PingController : ControllerBase
     {
         [HttpGet("ping")]
         public string Get()
