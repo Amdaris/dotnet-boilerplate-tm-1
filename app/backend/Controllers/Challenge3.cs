@@ -7,7 +7,7 @@ namespace backend.Controllers
     public class Challenge3 : ControllerBase
     {
         [HttpPost("supermarket-queue")]
-        public int GetSupermarketQueueTime([FromBody] RestaurantQueueRequest input)
+        public int GetSupermarketQueueTime([FromBody] SupermarketQueueRequest input)
         {
             // Write the code for Challenge 3 here
             var customers = input.Customers;

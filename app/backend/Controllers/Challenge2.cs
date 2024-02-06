@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using backend.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace backend.Controllers
 {
@@ -6,9 +7,10 @@ namespace backend.Controllers
     public class Challenge2 : ControllerBase
     {
         [HttpPost("restaurant-order")]
-        public string FormatRestaurantOrder([FromBody] string order)
+        public string FormatRestaurantOrder([FromBody] RestaurantOrderRequest input)
         {
             // Write the code for Challenge 2 here
+            var order = input.Order;
 
             return "";
         }
