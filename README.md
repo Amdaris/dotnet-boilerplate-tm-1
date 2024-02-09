@@ -3,9 +3,13 @@
 Use it for setting up a take-home interview assignment or a portfolio project.
 
 ## How to run project
-For building and starting up the project: 
+For building and starting up the project using commands: 
 - dotnet build
 - dotnet run --project .\backend\backend.csproj
+
+
+For building and starting up the project using the codespace IDE:
+- Install the extention names `C# Dev Kit` (it should appear as popup when you start the codespace, or you can search for it in the Extensions section in the left menu). After this is installed a small Play icon should appear in the top left corner of your codespace. 
 
 If you're using codespace, you'll see a popup in the bottom right corner asking for permission to open a new tab in your browser. On this new tab navigate to `/swagger`, and you'll be able to test your solution here.
 
