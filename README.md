@@ -2,6 +2,14 @@
 
 Use it for setting up a take-home interview assignment or a portfolio project.
 
+## How to run project
+For building and starting up the project: 
+- dotnet build
+- dotnet run --project .\backend\backend.csproj
+
+If you're using codespace, you'll see a popup in the bottom right corner asking for permission to open a new tab in your browser. On this new tab navigate to `/swagger`, and you'll be able to test your solution here.
+
+
 ## Contents
 
 - [Backend service](https://github.com/DevSkillsHQ/backend-boilerplate-dotnet/tree/master/app) - an .NET service with a `/ping` endpoint. Extend with your code.
